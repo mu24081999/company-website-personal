@@ -5,6 +5,15 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+# Yarn / Next.js junk files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.next/
+node_modules/
 
 # testing
 /coverage
